@@ -1,0 +1,8 @@
+.main-sidebar {
+    background-color: rgb(84, 0, 0);
+    width: 20vw;
+    height: 84.5vh;
+    top: 8vh;
+    left: 0px;
+    position: fixed;
+}

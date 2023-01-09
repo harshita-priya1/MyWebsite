@@ -1,0 +1,58 @@
+.main-header {
+    /* background-color: rgb(27, 121, 121); */
+    width: 100vw;
+    height: 8vh;
+    position: relative;
+    top: 0px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.title-1 {
+    color: rgb(88, 27, 146);
+    font-size: 2.8vw;
+    font-family: cursive;
+    font-weight: 400;
+    display: flex;
+    left: 0;
+    right: 0;
+    justify-content: center;
+}
+
+.emptydiv {
+    width:550px;
+    background-color: black;
+    border-radius: 20px;
+    height: 15px;
+}
+
+.button-ab-ho-co {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212, 176, 245);
+    width: 10vw;
+    height: 4vh;
+    margin-left: 8px;
+    margin-right: 4px;
+    user-select: none;
+    border-radius: 8px;
+    font-size: 2.5vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+.button-ab-ho-co:active{
+    animation: click 0.2s;
+}
+
+@keyframes click {
+    from{
+        transform: scale(1.2);
+        background-color: rgb(212, 176, 245);
+    }
+    to{
+        background-color: blueviolet;
+    }
+}
